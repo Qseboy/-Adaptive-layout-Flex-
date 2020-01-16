@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.js"
+  integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+  crossorigin="anonymous"></script>
+  <script src="./js/portfolio.js"></script>
+  
+  <script>
+      $(function(){
+        $(".toggle").on("click", function(){
+            if($(".item").hasClass("active")) {
+                $(".item").removeClass("active");
+            }
+            else {
+                $(".item").addClass("active");
+            }
+        });
+      });
+  
+  </script>
+  </head>
+  <body>
+    <header >
+        <div class="container">
+            <nav>
+                <ul class="menu__item">
+                <li class="logo"><a href="#">Cuda</a></li>
+                <li class="item"><a href="#">home</a></li class="item">
+                <li class="item"><a href="#">about</a></li>
+                <li class="item"><a href="#">work</a></li>
+                <li class="item"><a href="#">blog</a></li>
+                <li class="item"><a href="#">contact</a></li>
+                <li class="toggle">
+                    <span class="bars"></span>
+                </li>
+                </ul>
+            </nav>
+            <div class="header__title inner__header">
+                <h1>
+                    Hi there! We are the new kids on the block  and we build awesom
+                </h1>
+            </div>
+            <div class="header__button">
+                <a href="#">Work With Us!</a>
+            </div>
+        </div>
+    </header>
+    <section id="services__content">
+        <div class="container">
+            <div class="services__title inner__header">
+                <h1>Services we provide</h1>
+                <div class="border__title">
+                    <span class="title__border"></span>
+                </div>
+                <div class="content__title">
+                    <p>We are working with both individuals and businesses from all over the globe to create awesome websites and application.</p>
+                </div>  
+            </div>
+            <div class="services__items">
+                <div class="services__item ">
+                    <div class="services__logo">
+                        <img src="./image/tools_1.svg" alt="flag">
+                    </div>
+                    <h2>Branding</h2>
+                    <p>Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, seddiam nunummy nibh. </p>
+                </div>
+                <div class="services__item">
+                    <div class="services__logo">
+                        <img src="./image/2.png" alt="pen">
+                    </div>
+                    <h2>Design</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem  </p>
+                </div>
+                <div class="services__item">
+                    <div class="services__logo">
+                        <img src="./image/tools_3.svg" alt="settings">
+                    </div>
+                    <h2>Development</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium. </p>
+                </div>
+                <div class="services__item">
+                    <div class="services__logo">
+                        <img src="./image/tools_4.svg" alt="rocket">
+                    </div>
+                    <h2>ROCKET SCIENCE</h2>
+                    <p>Et harum quidem rerum est et expedita distinctio. Nam libero tepore. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team__content">
+        <div class="container">
+            <div class="team__inner inner__header">
+                <div class="team__header inner__header">
+                    <h1>MEET OUR BEAUTIFUL TEAM</h1>
+                    <div class="border__title">
+                        <span class="title__border"></span>
+                    </div>
+                    <p>We are a small team of designers and developers, who help brand with big ideas.</p>
+                </div>
+                <div class="team__items">
+                    <div class="team__item">
+                        <div class="team__photos">
+                            <img src="./image/team_photo.png" alt="photo">
+                        </div>
+                        <h2>ANNE HATHAWAY</h2>
+                        <h3>CEO / Marketing Guru</h3>
+                        <p>Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magma. </p>
+                        <div class="social__network">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="team__item">
+                        <div class="team__photos">
+                            <img src="./image/team_photo.png" alt="photo">
+                        </div>
+                        <h2>ANNE HATHAWAY</h2>
+                        <h3>CEO / Marketing Guru</h3>
+                        <p>Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magma. </p>
+                        <div class="social__network">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="team__item">
+                        <div class="team__photos">
+                            <img src="./image/team_photo.png" alt="photo">
+                        </div>
+                        <h2>Kate Upton</h2>
+                        <h3>Creative Director</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magma. </p>
+                        <div class="social__network">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="team__item">
+                        <div class="team__photos">
+                            <img src="./image/team_photo.png" alt="photo">
+                        </div>
+                        <h2>ANNE HATHAWAY</h2>
+                        <h3>CEO / Marketing Guru</h3>
+                        <p>Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magma. </p>
+                        <div class="social__network">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills__content">
+        <div class="container">
+            <div class="skills__inner">
+                <div class="skills__header inner__header">
+                    <h1>WE GOT SKILLS!</h1>
+                    <div class="border__title">
+                        <span class="title__border"></span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do euismod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="skills_stats">
+                    <div class="skills__items">
+                        <div class="statistic">
+                            <img src="./image/skills/1.png" alt="web design stats">
+                            <div class="procent">
+                                <p>90%</p>
+                            </div>
+                        </div>
+                        <h2>Web Design</h2>
+                    </div>
+                    <div class="skills__items">
+                        <div class="statistic">
+                            <img src="./image/skills/2.png" alt="web design stats">
+                            <div class="procent">
+                                <p>75%</p>
+                            </div>
+                        </div>
+                        <h2>HTML / CSS</h2>
+                    </div>
+                    <div class="skills__items">
+                        <div class="statistic">
+                            <img src="./image/skills/3.png" alt="web design stats">
+                            <div class="procent">
+                                <p>70%</p>
+                            </div>
+                        </div>
+                        <h2>GRAPHIC DESIGN</h2>
+                    </div>
+                    <div class="skills__items">
+                        <div class="statistic">
+                            <img src="./image/skills/4.png" alt="web design stats">
+                            <div class="procent">
+                                <p>85%</p>
+                            </div>
+                        </div>
+                        <h2>UI / UX</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio__content">
+        <div class="container">
+            <div class="portfolio__inner">
+                <div class="portfolio__header inner__header">
+                    <h1>OUR PORTFOLIO</h1>
+                    <div class="border__title">
+                        <span class="title__border"></span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do euismod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="portfolio__buttons">
+                        <button val="on" filter="all">all</button>
+                        <button val="off"  filter="web">web</button>
+                        <button val="off" filter="apps">apps</button>
+                        <button val="off" filter="icons">icons</button>
+                    </div>
+                </div>
+                <div class="portfolio__items">
+                    <div class="portfolio__item padded-container" filter="web">
+                        <img src="image/works/1.png" alt="works">
+                        <h2>Isometric Perspective Mock-Up</h2>
+                    </div>
+                    <div class="portfolio__item padded-container" filter="apps">
+                        <img src="image/works/1.png" alt="works">
+                        <h2>Isometric Perspective Mock-Up</h2>
+                    </div>
+                    <div class="portfolio__item padded-container" filter="web">
+                        <img src="image/works/1.png" alt="works">
+                        <h2>Isometric Perspective Mock-Up</h2>
+                    </div> 
+                    <div class="portfolio__item padded-container" filter="icons">
+                        <img src="image/works/1.png" alt="works">
+                        <h2>Isometric Perspective Mock-Up</h2>
+                    </div>
+                </div>
+                <div class="portfolio__projects">
+                    <button>lead more projects</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="aboutUs__content">
+        <div class="container">
+            <div class="aboutUs__inner">
+                <div class="aboutUs__header inner__header">
+                    <h1>WHAT POEPLE SAY ABOUT US</h1>
+                    <div class="border__title">
+                        <span class="title__border"></span>
+                    </div>
+                    <p>Our clients love us! </p>
+                </div>
+                <div class="aboutUs__items">
+                    <div class="aboutUs__item">
+                        <div class="aboutUs__avatar">
+                            <img src="./image/avatars/Base.png">
+                        </div>
+                        <div class="aboutUs__info">
+                            <blockquote>
+                                <p><i>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget.Maecenas fringilla urna eu nisl scelerisque."</i></p>
+                            </blockquote>
+                            <h2>Chanel Iman </h2>
+                            <h3>CEO of Pinterest </h3>
+                        </div>
+                    </div>
+                    <div class="aboutUs__item">
+                        <div class="aboutUs__avatar">
+                            <img src="./image/avatars/Base.png">
+                        </div>
+                        <div class="aboutUs__info">
+                            <blockquote>
+                                <p><i>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget.Maecenas fringilla urna eu nisl scelerisque."</i></p>
+                            </blockquote>
+                            <h2>Chanel Iman </h2>
+                            <h3>CEO of Pinterest </h3>
+                        </div>
+                    </div>
+                    <div class="aboutUs__item">
+                        <div class="aboutUs__avatar">
+                            <img src="./image/avatars/Base.png">
+                        </div>
+                        <div class="aboutUs__info">
+                            <blockquote>
+                                <p><i>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget.Maecenas fringilla urna eu nisl scelerisque."</i></p>
+                            </blockquote>
+                            <h2>Chanel Iman </h2>
+                            <h3>CEO of Pinterest </h3>
+                        </div>
+                    </div>
+                    <div class="aboutUs__item">
+                        <div class="aboutUs__avatar">
+                            <img src="./image/avatars/Base.png">
+                        </div>
+                        <div class="aboutUs__info">
+                            <blockquote>
+                                <p><i>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget.Maecenas fringilla urna eu nisl scelerisque."</i></p>
+                            </blockquote>
+                            <h2>Chanel Iman </h2>
+                            <h3>CEO of Pinterest </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contactForm__content">
+        <div class="container">
+            <div class="contactForm__inner">
+                <div class="contactForm__header inner__header">
+                    <h1>WHAT POEPLE SAY ABOUT US</h1>
+                    <div class="border__title">
+                        <span class="title__border"></span>
+                    </div>
+                    <p>Our clients love us! </p>
+                </div>
+                <form method="post">
+                    <div class="top__form">
+                        
+                        <div id="name__form">                      
+                            <input type="text" id="input" required="required"/>
+                            <label for="input">Your Name<span> *</span></label>
+                        </div>
+                        <div id="email__form">
+                            <input type="text" id="input" required="required">
+                            <label for="input">Your Email<span> *</span></label>
+                        </div>
+                        <div id="message__form">
+                            <textarea type="text" id="input" required="required" ></textarea>
+                            <label id="mes__lab" for="input">Your Message<span> *</span></label>
+                        </div>
+                        <div id="button__form">
+                            <button class="">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <nav>
+                <ul class="footer__menu">
+                    <li class="footer__item"><a href="#">Facebook</a></li>
+                    <li class="footer__item"><a style="color:#30bae7;" href="#">Twitter</a></li>
+                    <li class="footer__item"><a href="#">Google+</a></li>
+                    <li class="footer__item"><a href="#">LinkedIn</a></li>
+                    <li class="footer__item"><a href="#">Behance</a></li>
+                    <li class="footer__item"><a href="#">Dribbble</a></li>
+                    <li class="footer__item"><a href="#">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+  </body>
+</html>
